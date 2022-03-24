@@ -1,0 +1,30 @@
+.meal{
+    width: 350px;
+    height: 550px;
+    border: 1px solid grey;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    position: relative;
+}
+.meal:hover{
+    background-color: #fcf6da;
+    transition: 0.5s;
+}
+.meal img{
+    width: 330px;
+    margin: 0px auto;
+}
+.meal button{
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background-color: coral;
+    border: 0;
+    padding: 15px 20px;
+}
+.meal button:hover{
+    background-color: crimson;
+    transition: 0.5s;
+}

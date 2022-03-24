@@ -1,0 +1,6 @@
+.cart-component{
+    position: sticky;
+    top: 0;
+    padding: 20px 20px;
+    width: 30%;
+}
